@@ -1,6 +1,9 @@
 from dechiffrement import decryptage
+from logo import skull
 
+print(skull)
 print("'''''''''''''''''Brute force de cesar par analyse frequentielle''''''''''''''''''''''")
+print("''''''''''''''''''Design by Rachid Sanogo''''''''''''''''''''''''''''''''''''''''''''")
 message = input('message: ')
 # lettre_magique = input('entrez la lettre la plus frequente de votre langue: ')
 message_clair,key, plusfrequent = decryptage(message)
